@@ -10,10 +10,10 @@ user_runningnose:{required:true,type:Number},
 user_breath:{required:true,type:Number},
 user_nasal:{required:true,type:Number},
 user_throat:{required:true,type:Number},
-user_severity:{required:true,type:String,minlength:4,trim:true},
+user_severity:{required:true,type:String,trim:true},
 user_contactwithperson:{required:true,type:String,trim:true},
 infected:{required:true,type:Number},
-remarks:{type:String,minlength:4,}
+remarks:{type:String}
 })
 
 const coronacollection=connection.model("corona",coronaschema)

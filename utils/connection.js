@@ -9,3 +9,6 @@ mongoose.connect(config.url,{poolSize:config.poolsize},err=>{
     }
 })
 module.exports=mongoose;
+// const mongoose=require('mongoose');
+// mongoose.connect("mongodb+srv://corona:corona@cluster0-med9v.mongodb.net/test?retryWrites=true&w=majority");
+// module.exports=mongoose;
